@@ -12,7 +12,7 @@ def calcular_importe_horas_extra(salario_mensual_bruto, horas_extra):
         tarifa_hora_extra = tarifa_hora_normal * horas_extra * 1.25
     
     # Si las horas extra superan 7 horas, esas horas las cobra por 1,5 más
-    elif horas_extra > 7:
+    elif horas_extra > 8:
         tarifa_hora_extra = tarifa_hora_normal * 1.5 * horas_extra
     else:
         # No hay horas extra que pagar
